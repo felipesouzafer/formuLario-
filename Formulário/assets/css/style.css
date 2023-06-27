@@ -107,7 +107,16 @@ button[type="submit"]:hover{
     background-color: var(--purple1);
 }
 
-@media screen and (max-widht: 576px) {
+/*Media Query*/
+@media (min-widht: 1200px) {
+    
+}
+
+@media (min-widht: 720px) {
+    
+}
+
+@media screen and (min-widht: 320px) {
     .box-select{
            flex-direction: column;
            gap: 5px;
