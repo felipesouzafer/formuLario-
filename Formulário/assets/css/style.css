@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta');
 
 
+/* Cores do formulário*/
+
 :root{
     --white: #FFF;
     --red: #e63636;
@@ -25,6 +27,8 @@ body{
     height: 100vh;
 }
 
+/*Style do Container*/
+
 .content{
     background-color: var(--dark2);
     padding: 2rem;
@@ -47,6 +51,8 @@ h1{
 .span-required{
     display: none;
 }
+
+/* Style dos Inputs*/
 
 textarea{
     padding: 8px 5px;
@@ -108,6 +114,7 @@ button[type="submit"]:hover{
 }
 
 /*Media Query*/
+
 @media (min-widht: 1200px) {
     
 }
